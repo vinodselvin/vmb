@@ -1,0 +1,238 @@
+:root {
+    --brand: #0d6efd;
+    --muted: #6c757d;
+}
+
+body {
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #064a86 !important;
+}
+
+.hero {
+    background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02));
+    padding-top: 125px !important;
+    background: #abd9fb url('./assets/./first-banner-hero.jpg') no-repeat right center;
+    background-size: 50%;
+    /* background: #fff url(./assets/'./first-banner.jpg') no-repeat fixed center; */
+}
+
+.site-font-color {
+    color: #064a86 !important;
+}
+
+.tech-badge {
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+    padding: .35rem .6rem;
+    font-size: .85rem
+}
+
+.card-project img {
+    height: 160px;
+    object-fit: cover
+}
+
+.founder-photo {
+    width: 124px;
+    height: 124px;
+    border-radius: 12px;
+    object-fit: cover
+}
+
+footer {
+    background: #0b1726;
+    color: #fff
+}
+
+.wave {
+    height: 80px;
+    overflow: hidden
+}
+
+.cta-btn {
+    background: var(--brand);
+    color: #fff
+}
+
+.logo {
+    height: 80px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: transparent !important;
+}
+
+.first-block {
+    height: 75vh;
+}
+
+.custom-btn {
+    border-radius: 50%;
+    box-shadow: 0 0 10px #a0a0a0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 0 #000;
+    background-color: #064a86;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.ml-2 {
+    margin-left: 16px;
+}
+
+.nav-item .nav-link:hover {
+    color: #064a86 !important;
+    /* font-weight: 600; */
+}
+
+.nav-bar-solid {
+    background-color: white !important;
+    /* background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02)) !important; */
+
+}
+
+#services {
+    background: linear-gradient(180deg, rgba(13, 110, 253, 0.02), rgba(13, 110, 253, 0.3));
+}
+#products {
+    background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02));
+}
+
+.services-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.learn-more {
+    /* background-color: #064a86; */
+    /* border: 1px solid #064a86; */
+    /* border-radius: 30px; */
+    width: 100%;
+    /* padding: 0.8rem; */
+    font: 1em sans-serif;
+    color: #064a86;
+    cursor: pointer;
+    text-align: center;
+}
+.learn-more:hover {
+    /* background-color: white; */
+    color: #0d6efd;
+    /* border: 1px solid #0d6efd; */
+    transition: background-color 0.3s ease;
+}
+.hidden {
+    display: none;
+}
+.learn-more-content {
+    height: 200px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    padding: 15px;
+    
+}
+#services .card-body {
+    cursor: pointer;
+    padding: 0px;
+    background: url(./assets/services1.jpg) no-repeat ;
+}
+
+#services .card-title {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.first-block-text {
+    transform: translateX(-300px); /* start off-screen to the left */
+    opacity: 0; /* optional for fade effect */
+}
+
+.first-block-img {
+    transform: translateX(300px); /* start off-screen to the right */
+    opacity: 0; /* optional for fade effect */
+}
+.gold {
+    /* color: #bf9b30; */
+    /* text-shadow: 1px 1px 0px #064a86; */
+    background-color: goldenrod;
+}
+#products {
+    /* background: url(./assets/'./first-banner.jpg') no-repeat; */
+    background: url(./assets/services1.jpg) no-repeat ;   
+}
+
+#contact {
+    /* background: url(./assets/'./contact-banner.jpg'); */
+}
+
+#contact input, #contact textarea {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+.vmb-contact-head {
+    text-align: left;
+    margin-bottom: 20px
+}
+
+.vmb-contact-info .vmb-contact-head {
+    padding-left: 10px
+}
+
+.vmb-contact-head span.prefix {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    color: #202020;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.vmb-contact-head h3 {
+    font-size: 26px;
+    color: #181b31;
+    line-height: 60px;
+    width: 100%;
+    margin: 0 auto 10px
+}
+
+.vmb-contact-head h3 span {
+    color: #064a86;
+}
+
+.view-more-portfolio-btn {
+    text-decoration: none;
+    color: #064a86;
+    font-size: 1.2rem;
+}
+
+.view-more-portfolio-btn:hover {
+    opacity: 0.8;
+    color: #78b930;
+}
+.contact-info-card {
+    text-align: center;
+    padding: 3.5rem;
+    border: 0.5px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #e9ecef;
+    margin: 20px;
+}
+.contact-info-card .fa {
+    font-size: 2.5rem;
+    color: #064a86;
+    margin-bottom: 25px;
+}
