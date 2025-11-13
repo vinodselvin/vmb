@@ -15,6 +15,18 @@ body {
     background-size: 50%;
     /* background: #fff url(./assets/'./first-banner.jpg') no-repeat fixed center; */
 }
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100em solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #2196F3;
+}
+
+.hero .lead {
+    text-align: justify;
+
+}
 
 .site-font-color {
     color: #064a86 !important;
@@ -97,7 +109,7 @@ footer {
 }
 
 #services {
-    background: linear-gradient(180deg, rgba(13, 110, 253, 0.02), rgba(13, 110, 253, 0.3));
+    /* background: linear-gradient(180deg, rgba(13, 110, 253, 0.02), rgba(13, 110, 253, 0.3)); */
 }
 #products {
     background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02));
@@ -235,4 +247,14 @@ footer {
     font-size: 2.5rem;
     color: #064a86;
     margin-bottom: 25px;
+}
+
+/* CSS here applies only when the screen width is 768px or less */
+@media (max-width: 768px) {
+  .logo {
+      height: 60px;
+  }
+  .hero {
+    background-position: center 80%;
+  }
 }
