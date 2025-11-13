@@ -5,7 +5,7 @@
 
 body {
     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    color: #064a86 !important;
+    color: #234882 !important;
 }
 
 .hero {
@@ -29,7 +29,7 @@ body {
 }
 
 .site-font-color {
-    color: #064a86 !important;
+    color: #234882 !important;
 }
 
 .tech-badge {
@@ -88,7 +88,7 @@ footer {
     font-size: 15px;
     text-transform: capitalize;
     border: 0 #000;
-    background-color: #064a86;
+    background-color: #234882;
     border-radius: 30px;
     padding: 10px 25px;
 }
@@ -98,7 +98,7 @@ footer {
 }
 
 .nav-item .nav-link:hover {
-    color: #064a86 !important;
+    color: #234882 !important;
     /* font-weight: 600; */
 }
 
@@ -123,13 +123,13 @@ footer {
 }
 
 .learn-more {
-    /* background-color: #064a86; */
-    /* border: 1px solid #064a86; */
+    /* background-color: #234882; */
+    /* border: 1px solid #234882; */
     /* border-radius: 30px; */
     width: 100%;
     /* padding: 0.8rem; */
     font: 1em sans-serif;
-    color: #064a86;
+    color: #234882;
     cursor: pointer;
     text-align: center;
 }
@@ -171,7 +171,7 @@ footer {
 }
 .gold {
     /* color: #bf9b30; */
-    /* text-shadow: 1px 1px 0px #064a86; */
+    /* text-shadow: 1px 1px 0px #234882; */
     background-color: goldenrod;
 }
 #products {
@@ -189,7 +189,7 @@ footer {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-bottom: 15px;
     background: transparent;
 }
@@ -222,12 +222,12 @@ footer {
 }
 
 .vmb-contact-head h3 span {
-    color: #064a86;
+    color: #234882;
 }
 
 .view-more-portfolio-btn {
     text-decoration: none;
-    color: #064a86;
+    color: #234882;
     font-size: 1.2rem;
 }
 
@@ -237,7 +237,7 @@ footer {
 }
 .contact-info-card {
     text-align: center;
-    padding: 3.5rem;
+    padding: 2.1rem;
     border: 0.5px solid #e9ecef;
     border-radius: 8px;
     box-shadow: 0 0 5px #e9ecef;
@@ -245,8 +245,36 @@ footer {
 }
 .contact-info-card .fa {
     font-size: 2.5rem;
-    color: #064a86;
+    color: #234882;
     margin-bottom: 25px;
+}
+.header-line {
+    /* border-top: 5px solid red; */
+    height: 4px;
+    width: 80px;
+    background-color: #31b3a9;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.navbar-toggler {
+    border-width: 0px !important;
+}
+.contact-btn-mobile {
+    display: none;
+}
+.fixed-bottom-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1030;
+    padding: 0.5rem;
+}
+
+.fixed-bottom-buttons .btn {
+    width: 32%;
 }
 
 /* CSS here applies only when the screen width is 768px or less */
@@ -256,5 +284,15 @@ footer {
   }
   .hero {
     background-position: center 80%;
+  }
+  
+}
+
+@media (max-width: 991px) {
+    .contact-btn-mobile {
+    display: block;
+  }
+  .contact-btn {
+    display: none;
   }
 }
