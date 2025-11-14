@@ -1,23 +1,126 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VMB Software Solutions Private Limited — Software & SaaS Solutions</title>
-  <meta name="description" content="VMB Software Solutions — Web Development, ERP/CRM, Cloud, Consulting & Custom SaaS. Local roots, global reach.">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>  <script src="./main.js" ></script>
-  <link href="./styles.css" rel="stylesheet">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VMB Software Solutions — Custom Software, ERP & SaaS Development | Tirunelveli, Tamil Nadu</title>
+  <meta name="description" content="VMB Software Solutions (Valliyur, Tirunelveli) — Custom web & mobile apps, ERP/CRM, Cloud & DevOps, and end-to-end SaaS development. Trusted Indian software partner for startups and enterprises."/>
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vmbsoftwaresolutions.com/" />
+  <meta name="keywords" content="software company Tirunelveli, ERP development Tamil Nadu, SaaS development India, cloud migration Tirunelveli" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:site_name" content="VMB Software Solutions" />
+  <meta property="og:title" content="VMB Software Solutions — Custom Software & SaaS (Tirunelveli, Tamil Nadu)" />
+  <meta property="og:description" content="Custom web & mobile apps, ERP/CRM, Cloud & DevOps, and SaaS development from Valliyur, Tirunelveli. Engineering-first approach for startups and enterprises." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vmbsoftwaresolutions.com/" />
+  <meta property="og:image" content="https://vmbsoftwaresolutions.com/assets/first-banner-transparent.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VMB Software Solutions — Custom Software & SaaS (Tirunelveli)" />
+  <meta name="twitter:description" content="Custom web & mobile apps, ERP/CRM, Cloud & DevOps, and SaaS development from Valliyur, Tirunelveli." />
+  <meta name="twitter:image" content="https://vmbsoftwaresolutions.com/assets/first-banner-transparent.png" />
+
+  <!-- Preconnect CDN -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://code.jquery.com" crossorigin>
+
+  <!-- Bootstrap CSS (deferred by preconnect) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Critical inline CSS (small) to reduce CLS -->
+  <style>
+    /* Minimal critical CSS - keep it small */
+    .site-font-color { color: #1d2430; }
+    .header-line { width:64px; height:4px; background:#b8860b; margin:12px auto; border-radius:2px; }
+    .cta-btn { background: #0d6efd; color: #fff; border-radius:8px; padding:10px 18px; border:none; text-decoration:none; }
+    .custom-btn.btn-outline-secondary.bg-dark { background:#fff !important; color:#212529 !important; }
+    .tech-badge { border:1px solid #e7e7e7; padding:8px 14px; border-radius:20px; display:inline-block; font-weight:600; }
+    .logo{ height:48px; width:auto; object-fit:contain; }
+    /* ensure images do not cause layout shift */
+    img { max-width:100%; height:auto; display:block; }
+  </style>
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://vmbsoftwaresolutions.com/#organization",
+        "name": "VMB Software Solutions Private Limited",
+        "url": "https://vmbsoftwaresolutions.com/",
+        "logo": "https://vmbsoftwaresolutions.com/assets/logo.png",
+        "sameAs": [],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+91-7010554520",
+            "contactType": "customer support",
+            "areaServed": "IN",
+            "availableLanguage": ["English","Tamil"]
+          }
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://vmbsoftwaresolutions.com/#localbusiness",
+        "name": "VMB Software Solutions Private Limited",
+        "image": "https://vmbsoftwaresolutions.com/assets/first-banner-transparent.png",
+        "telephone": "+91-7010554520",
+        "email": "vinod.selvin@vmbsoftwaresolutions.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Valliyur",
+          "addressLocality": "Valliyur",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "",
+          "addressCountry": "IN"
+        },
+        "url": "https://vmbsoftwaresolutions.com/",
+        "priceRange": "₹₹",
+        "openingHours": "Mo-Fr 09:00-19:00",
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vmbsoftwaresolutions.com/#website",
+        "url": "https://vmbsoftwaresolutions.com/",
+        "name": "VMB Software Solutions",
+        "publisher": { "@id": "https://vmbsoftwaresolutions.com/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Home","item":"https://vmbsoftwaresolutions.com/"},
+          {"@type":"ListItem","position":2,"name":"Services","item":"https://vmbsoftwaresolutions.com/#services"},
+          {"@type":"ListItem","position":3,"name":"Portfolio","item":"https://vmbsoftwaresolutions.com/#portfolio"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Your external stylesheet -->
+  <link href="./styles.css" rel="stylesheet" />
 </head>
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#"><img class="logo" src="./assets/logo.png" alt="VMB Software Solutions logo"/></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="/" aria-label="VMB Software Solutions home">
+      <img class="logo" src="./assets/logo.png" alt="VMB Software Solutions logo" width="160" height="48"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navmenu">
@@ -27,184 +130,124 @@
         <li class="nav-item"><a class="nav-link" href="#technologies">Technologies</a></li>
         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="btn cta-btn btn-lg custom-btn contact-btn ml-2" href="#contact">Contact Us</a></li>
-        <li class="nav-item"><a class="nav-link contact-btn-mobile" href="#contact">Contact Us</a></li>
-        <!-- <li class="nav-item">
-          <a href="#contact" class="btn cta-btn btn-lg">Get a Quote</a>
-        </li> -->
+        <li class="nav-item"><a class="btn cta-btn btn-lg custom-btn contact-btn ms-2" href="#contact">Get a Quote</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- HERO -->
-<header class="hero py-5" id="home">
+<header class="hero py-5" id="home" role="banner">
   <div class="container">
     <div class="row align-items-center first-block">
-      <div class="col-lg-6 first-block-text" width="0">
-        <h1 class="display-6 fw-bold site-font-color"><span class="gold">VMB Software Solutions</span> <br> Crafting Reliable Software & Cloud Solutions</h1>
-        <p class="lead text-muted site-font-color">Local roots in Tirunelveli (Valliyur). Global reach for enterprises, startups, and growth-focused businesses. We build web apps, ERP/CRM platforms and scalable SaaS products with modern engineering and pragmatic design.</p>
+      <div class="col-lg-6 first-block-text">
+        <h1 class="display-6 fw-bold site-font-color" id="main-heading">
+          <span class="gold">VMB Software Solutions</span><br>
+          Custom Software, ERP & SaaS Development — Tirunelveli, Tamil Nadu
+        </h1>
+        <p class="lead text-muted site-font-color">
+          We build reliable web apps, ERP/CRM systems and scalable SaaS products. Based in Valliyur (Tirunelveli), we help Indian startups and enterprises modernize systems, migrate to cloud and ship product-grade software.
+        </p>
         <div class="d-flex gap-2 flex-wrap">
-          <a href="#contact" class="btn cta-btn btn-lg custom-btn">Get a Quote</a>
-          <a href="#portfolio" class="btn cta-btn btn-lg custom-btn btn-outline-secondary bg-dark">View Portfolio</a>
+          <a href="#contact" class="btn cta-btn btn-lg custom-btn" aria-label="Get a quote from VMB">Get a Quote</a>
+          <a href="#portfolio" class="btn cta-btn btn-lg custom-btn btn-outline-secondary bg-dark" aria-label="View portfolio">View Portfolio</a>
         </div>
-        <!-- <div class="mt-4">
-          <span class="tech-badge me-2">Java</span>
-          <span class="tech-badge me-2">React</span>
-          <span class="tech-badge me-2">Angular</span>
-          <span class="tech-badge me-2">PostgreSQL</span>
-          <span class="tech-badge">AWS</span>
-        </div> -->
+        <p class="small text-muted mt-3">Free consult for first-time customers — mention “Website Contact” when you call or email.</p>
       </div>
-      <div class="col-lg-5 text-center mt-4 mt-lg-0 first-block-img">
-        <!-- <img src="./assets/banner.jpg" class="img-fluid rounded shadow" alt="team working"> -->
+      <div class="col-lg-6 text-center mt-4 mt-lg-0 first-block-img">
+        <img src="./assets/first-banner-transparent.png" alt="VMB team working on cloud and web solutions" class="img-fluid hero-img" loading="lazy" />
       </div>
     </div>
-  </div>
-  <div align="center" style="cursor: pointer;" class="scroll-down-indicator" data-to="services">
-    <i class="fa fa-chevron-down" style="font-size:30px;"></i><br>
-    <i class="fa fa-chevron-down" style="font-size:24px;"></i><br>
-    <i class="fa fa-chevron-down" style="font-size:18px;"></i><br>
   </div>
 </header>
 
 <!-- SERVICES -->
-<section id="services" class="py-5">
+<section id="services" class="py-5" aria-labelledby="services-heading">
   <div class="container">
     <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Our Services</h2>
+      <h2 id="services-heading" class="h3 fw-bold">Our Services — Software, Cloud & Product Engineering</h2>
       <div class="header-line"></div>
-      <p class="text-muted">Comprehensive solutions across web, cloud, enterprise systems and consulting.</p>
+      <p class="text-muted">End-to-end engineering: product strategy, custom development, cloud operations and long-term support. We work with startups, SMBs and enterprises across India.</p>
     </div>
+
+    <!-- service cards (each with keyword-targeted text) -->
     <div class="row g-4">
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-web">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services1.jpg" class="services-image">
-            <h5 class="card-title text-center">Web & Mobile Development</h5>
-            <div class="learn-more-content hidden" id="services1-lm-content" >
-              <p class="card-text text-muted">Modern responsive web apps and mobile-friendly frontends using React, Angular and progressive web technologies. UI/UX-driven development with component-based architecture and TypeScript best practices.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> SPA, PWA, Cross-browser optimized, Accessible UI</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="services1-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services1.jpg" class="services-image" alt="Web and mobile app development example" loading="lazy" width="720" height="480">
+            <h3 id="svc-web" class="card-title text-center h5">Web & Mobile Development</h3>
+            <p class="card-text text-muted">Modern, responsive web applications and mobile-friendly frontends using React, Angular and TypeScript. We deliver SPA/PWA experiences with accessibility and performance optimizations to drive user retention.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> SPA, PWA, Cross-browser optimized, Accessible UI</p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-erp">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services2.jpg" class="services-image">
-            <h5 class="card-title">ERP / CRM Development</h5>
-            <div class="learn-more-content hidden" id="services2-lm-content" >
-              <p class="card-text text-muted">Custom ERP and CRM solutions tailored to your business processes — inventory, finance, HR, and operations automation. Robust role-based access, audit trails and reporting modules.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> Custom ERP, Integration, Reports & Dashboards</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="services2-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services2.jpg" class="services-image" alt="Custom ERP and CRM dashboard screenshot" loading="lazy" width="720" height="480">
+            <h3 id="svc-erp" class="card-title text-center h5">ERP / CRM Development (Custom)</h3>
+            <p class="card-text text-muted">Custom ERP and CRM systems tailored to your business process — inventory, finance, HR, and operations automation. Role-based access, audit trails and rich reporting for data-driven decisions.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> Custom ERP, Integrations, Reports & Dashboards</p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-cloud">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services3.jpg" class="services-image">
-            <h5 class="card-title">Cloud & DevOps</h5>
-            <div class="learn-more-content hidden" id="services3-lm-content" >
-              <p class="card-text text-muted">Cloud migration, infrastructure automation, CI/CD pipelines and containerization for scalable deployments on AWS / GCP. Cost optimization and observability best practices.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> Cloud setup, CI/CD, Monitoring</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="services3-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services3.png" class="services-image" alt="Cloud migration and DevOps pipeline" loading="lazy" width="720" height="480">
+            <h3 id="svc-cloud" class="card-title text-center h5">Cloud & DevOps</h3>
+            <p class="card-text text-muted">Cloud migrations, containerization and CI/CD for resilient deployments on AWS/GCP. We implement infrastructure as code, monitoring and cost optimization to keep your platform reliable and efficient.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> Cloud setup, CI/CD, Monitoring</p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-consult">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services6.jpg" class="services-image">
-            <h5 class="card-title">Consulting & System Design</h5>
-            <div class="learn-more-content hidden" id="service6-lm-content" >
-              <p class="card-text text-muted">Architecture reviews, system design workshops, performance tuning and tech due diligence — actionable blueprints to scale product & engineering efforts.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> Architecture docs, PoC, Cost estimates</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="service6-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services4.jpg" class="services-image" alt="System design and architecture workshop" loading="lazy" width="720" height="480">
+            <h3 id="svc-consult" class="card-title text-center h5">Consulting & System Design</h3>
+            <p class="card-text text-muted">Architecture reviews, system design workshops and performance tuning. We deliver practical blueprints — component diagrams, cost estimates and proof-of-concept implementations.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> Architecture docs, PoC, Cost estimates</p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-saas">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services4.jpg" class="services-image">
-            <h5 class="card-title">Custom SaaS Development</h5>
-            <div class="learn-more-content hidden" id="services4-lm-content" >
-              <p class="card-text text-muted">End-to-end SaaS product development — from MVP to multi-tenant platforms, analytics, subscription billing integration and customer onboarding flows.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> MVP, Multi-tenant SaaS, Billing Integration</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="services4-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services5.png" class="services-image" alt="SaaS platform multi-tenant architecture" loading="lazy" width="720" height="480">
+            <h3 id="svc-saas" class="card-title text-center h5">Custom SaaS Development</h3>
+            <p class="card-text text-muted">From MVP to multi-tenant SaaS platforms — analytics, subscription billing and onboarding flows. We design for scale, observability and secure tenancy separation.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> MVP, Multi-tenant SaaS, Billing Integration</p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="col-md-6 col-lg-4">
+      <article class="col-md-6 col-lg-4" aria-labelledby="svc-support">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <img src="./assets/services5.jpg" class="services-image">
-            <h5 class="card-title">Maintenance & Support</h5>
-            <div class="learn-more-content hidden" id="services5-lm-content" >
-              <p class="card-text text-muted">Long-term maintenance, SLA-driven support, security patching and version upgrades to keep systems reliable and secure.</p>
-              <p class="mb-0"><strong>Deliverables:</strong> Support SLAs, Patch Management, Version Upgrades</p>
-            </div>
-            <div class="mt-2 mb-3 learn-more" id="services5-lm">Learn More <i class="fa fa-arrow-right"></i></div>
+            <img src="./assets/services5.jpg" class="services-image" alt="Maintenance and support workflow" loading="lazy" width="720" height="480">
+            <h3 id="svc-support" class="card-title text-center h5">Maintenance & Support</h3>
+            <p class="card-text text-muted">SLA-driven long-term maintenance, security patching and version upgrades. We keep production systems secure and up-to-date while minimizing downtime.</p>
+            <p class="mb-0"><strong>Deliverables:</strong> Support SLAs, Patch Management, Version Upgrades</p>
           </div>
         </div>
-      </div>
-
+      </article>
     </div>
   </div>
 </section>
 
-<!-- PRODUCTS -->
-<!-- <section id="products" class="py-5 bg-light">
-  <div class="container">
-    <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Products & Platforms</h2>
-      <p class="text-muted">We build product-first solutions and white-label platforms for long-term growth.</p>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">VMB ERP (In Development)</h5>
-            <p class="text-muted">A modular ERP platform tailored to small & mid-sized enterprises — finance, inventory, HR and reporting. Built to be configurable and easy to deploy.</p>
-            <p class="mb-0"><strong>Status:</strong> Beta (contact us for early access)</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Custom SaaS Solutions</h5>
-            <p class="text-muted">We partner with startups and enterprises to build productized services — analytics platforms, industry-specific CRMs and workflow automation tools.</p>
-            <p class="mb-0"><strong>Ask us about:</strong> White-label options & revenue-share models.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section> -->
-
 <!-- TECHNOLOGIES -->
-<section id="technologies" class="py-5">
+<section id="technologies" class="py-5 bg-light" aria-labelledby="tech-heading">
   <div class="container">
     <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Technologies We Use</h2>
+      <h2 id="tech-heading" class="h3 fw-bold">Technologies We Use</h2>
       <div class="header-line"></div>
-      
-      <p class="text-muted">A concise set of proven technologies we rely on for robust outcomes.</p>
+      <p class="text-muted">Proven stack choices for scalable, maintainable systems.</p>
     </div>
     <div class="row g-3 justify-content-center">
       <div class="col-auto text-center"><div class="tech-badge">Java</div></div>
@@ -222,272 +265,146 @@
 </section>
 
 <!-- PORTFOLIO -->
-<section id="portfolio" class="py-5 bg-white">
+<section id="portfolio" class="py-5" aria-labelledby="portfolio-heading">
   <div class="container">
     <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Portfolio & Case Studies</h2>
-      <div class="header-line" ></div>
-
-      <p class="text-muted">Selected projects that demonstrate our capabilities. (Demos & prototypes listed if client confidentiality is required.)</p>
+      <h2 id="portfolio-heading" class="h3 fw-bold">Portfolio & Case Studies</h2>
+      <div class="header-line"></div>
+      <p class="text-muted">Selected projects demonstrating product & engineering depth.</p>
     </div>
+
     <div class="row g-4">
       <div class="col-md-4">
-        <div class="card card-project shadow-sm">
-          <img src="./assets/toi.jpg" class="card-img-top" alt="project">
+        <article class="card card-project shadow-sm">
+          <img src="./assets/toi.jpg" class="card-img-top" alt="Times of India digital fitness campaign project" loading="lazy" width="640" height="360">
           <div class="card-body">
-            <h5 class="card-title">Times of India (Fitness Campaign)</h5>
-            <p class="card-text text-muted">Built a custom CRM for a regional logistics operator — shipment tracking, invoicing and partner onboarding. Reduced manual effort by 60%.</p>
-            <p class="mb-0"><strong>Tech:</strong> React, Node.js, PostgreSQL</p>
+            <h3 class="card-title h5">Times of India — Fitness Campaign</h3>
+            <p class="card-text text-muted">Digital campaign implementation including front-end interactions and performance-tuned pages to handle high traffic events.</p>
           </div>
-        </div>
+        </article>
       </div>
 
       <div class="col-md-4">
-        <div class="card card-project shadow-sm">
-          <img src="./assets/icecream.jpg" class="card-img-top" alt="project">
+        <article class="card card-project shadow-sm">
+          <img src="./assets/icecream.jpg" class="card-img-top" alt="Ice cream brand responsive website project" loading="lazy" width="640" height="360">
           <div class="card-body">
-            <h5 class="card-title">Ice Cream Brand</h5>
-            <p class="card-text text-muted">An inventory & billing ERP for a retail chain — integrated POS, stock forecasting and multi-store sync.</p>
-            <p class="mb-0"><strong>Tech:</strong> Java (Spring Boot), Angular, MongoDB</p>
+            <h3 class="card-title h5">Ice Cream Brand — Responsive Site</h3>
+            <p class="card-text text-muted">Responsive UX, CSS animations and smooth UI transitions to improve engagement and conversions for the brand.</p>
           </div>
-        </div>
+        </article>
       </div>
 
       <div class="col-md-4">
-        <div class="card card-project shadow-sm">
-          <img src="./assets/ticketmgmt.jpg" class="card-img-top" alt="project">
+        <article class="card card-project shadow-sm">
+          <img src="./assets/ticketmgmt.jpg" class="card-img-top" alt="Ticket management system similar to JIRA" loading="lazy" width="640" height="360">
           <div class="card-body">
-            <h5 class="card-title">Ticket Management System (Similar to JIRA)</h5>
-            <p class="card-text text-muted">A multi-tenant analytics dashboard with role-based access, scheduled reports and export features.</p>
-            <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
+            <h3 class="card-title h5">Ticket Management System (JIRA-like)</h3>
+            <p class="card-text text-muted">Scalable issue tracking with customizable workflows and real-time collaboration features for enterprises.</p>
           </div>
-        </div>
+        </article>
       </div>
 
-      <div class="row g-4 mt-4 collapse" id="view-more-portfolio-main">
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio1">
-          <div class="card card-project shadow-sm">
-            <img src="./assets/innovatefin.jpg" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Tech-first FinTech company</h5>
-              <p class="card-text text-muted">A multi-tenant analytics dashboard with role-based access, scheduled reports and export features.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio2">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Online Game Tournament</h5>
-              <p class="card-text text-muted">A complete game management, with scoring and integrated Steam.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio3">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Online Wallet</h5>
-              <p class="card-text text-muted">A complete game management, with scoring and integrated Steam.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio4">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">AWS Lambda Server-less framework migration.</h5>
-              <p class="card-text text-muted">from old version to aws.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio5">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Digital Signature</h5>
-              <p class="card-text text-muted">from old version to aws.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio6">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">FIX Protocol</h5>
-              <p class="card-text text-muted">from old version to aws.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio7">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Custom ERP</h5>
-              <p class="card-text text-muted">from old version to aws.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 view-more-portfolio" id="view-more-portfolio8">
-          <div class="card card-project shadow-sm">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="card-img-top" alt="project">
-            <div class="card-body">
-              <h5 class="card-title">Custom NPM Packages</h5>
-              <p class="card-text text-muted">from old version to aws.</p>
-              <p class="mb-0"><strong>Tech:</strong> React, Spring Boot, PostgreSQL</p>
-            </div>
-          </div>
-        </div>
+      <!-- more portfolio items -->
+      <div class="col-md-12 text-center mt-4">
+        <a href="#contact" class="btn cta-btn" aria-label="Contact VMB to see more case studies">Contact us for full case studies</a>
       </div>
-      <button class="btn btn-link view-more-portfolio-btn"  data-bs-toggle="collapse" href="#view-more-portfolio-main" role="button" aria-expanded="false" aria-controls="view-more-portfolio-main">View More <i class="fa fa-chevron-down"></i></button>
     </div>
   </div>
 </section>
-
-
-
-<!-- CAREERS -->
-<!-- <section id="careers" class="py-5 bg-light">
-  <div class="container">
-    <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Careers</h2>
-      <p class="text-muted">We’re building a small, passionate engineering team. If you love clean code and practical systems, get in touch.</p>
-    </div>
-    <div class="row g-4 justify-content-center">
-      <div class="col-md-8">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5>Open Roles</h5>
-            <ul class="text-muted">
-              <li>Frontend Engineer (React/Angular)</li>
-              <li>Backend Engineer (Java / Spring Boot)</li>
-              <li>DevOps Engineer (AWS, Docker)</li>
-            </ul>
-            <p class="mb-0">Send your CV: <a href="mailto:hr@vmbSoftware Solutions.in">hr@vmbSoftware Solutions.in</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <!-- CONTACT -->
-<section id="contact" class="py-5">
+<section id="contact" class="py-5" aria-labelledby="contact-heading">
   <div class="container">
     <div class="text-center mb-4">
-      <h2 class="h3 fw-bold">Contact Us</h2>
+      <h2 id="contact-heading" class="h3 fw-bold">Contact Us — Valliyur, Tirunelveli</h2>
       <div class="header-line"></div>
-
-      <p class="text-muted">Ready to start a project or request a demo? Reach out — We will catch you as early as we receive the message.</p>
+      <p class="text-muted">Ready to start a project or request a demo? Reach out — We reply during business hours (Mon–Fri, 9am–7pm IST).</p>
     </div>
+
     <div class="row g-4">
       <div class="col-md-5">
-        <div class="row">
-          <div class="col-12 card card-body contact-info-card">
-            <div class="info-body">
-              <i class="fa fa-phone"></i>
-              <p>Assistance hours: 9 am to 7 pm</p> 
-              <a href="tel:(+91) 7010554520 ">(+91) 7010 5545 20 </a> 
-            </div>
-          </div>
-          <div class="col-12 card card-body contact-info-card">
-            <div class="info-body">
-              <i class="fa fa-envelope"></i>
-              <p>Assistance hours: Monday – Friday, 10 am to 6 pm</p> 
-              <a href="mailto:vinod.selvin@vmbsoftwaresolutions.com">vinod.selvin@vmbsoftwaresolutions.com</a> 
-            </div>
+        <div class="card card-body contact-info-card shadow-sm">
+          <div class="info-body">
+            <i class="fa fa-phone"></i>
+            <p class="mb-1 fw-semibold">Phone</p>
+            <a href="tel:+917010554520" class="d-block">(+91) 7010 5545 20</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-7">
-        <div class="vmb-contact-head" id="write-us">
-            <h3><span>Write a Message</span></h3>
-        </div>
-        <form id="contactForm">
-          <div class="mb-3 row">
-            <div class="col">
-              <input type="text" name="entry.2005620554" id="name" placeholder="Enter Name *" class="form-control" required>
-            </div>
-            <div class="col">
-              <input type="text" id="phone" name="entry.1166974658" placeholder="Enter Phone Number *" class="form-control" required>
-            </div>
-          </div>
-          <div class="mb-3 row">
-            <div class="col">
-              <input type="email" name="entry.1045781291" id="email" placeholder="Enter Email address *" class="form-control" required>
-            </div>
-          </div>
-          <div class="mb-3 row">
-            <div class="col">
-              <textarea id="message" name="entry.839337160" class="form-control" placeholder="Enter message *" rows="5" required></textarea>
-            </div>
-          </div>
-          <button class="btn cta-btn" type="submit">Send Message</button>
-        </form>
 
-        <script>
-        document.getElementById("contactForm").addEventListener("submit", e => {
-          e.preventDefault();
-          const formData = new FormData(e.target);
-          fetch("https://docs.google.com/forms/d/e/1FAIpQLSekxKaSAWWtbKnLcPBmu-TLMy1grBu972Xh_vRefHrDA0_Yrg/formResponse", {
-            method: "POST",
-            mode: "no-cors",
-            body: formData
-          }).then(() => {
-            alert("Response submitted!");
-          });
-        });
-        </script>
+        <div class="card card-body contact-info-card shadow-sm mt-3">
+          <div class="info-body">
+            <i class="fa fa-envelope"></i>
+            <p class="mb-1 fw-semibold">Email</p>
+            <a href="mailto:vinod.selvin@vmbsoftwaresolutions.com" class="d-block">vinod.selvin@vmbsoftwaresolutions.com</a>
+          </div>
+        </div>
+
+        <div class="card card-body contact-info-card shadow-sm mt-3">
+          <div class="info-body">
+            <i class="fa fa-map-marker"></i>
+            <p class="mb-1 fw-semibold">Address</p>
+            <small class="text-muted">Registered Office: Valliyur, Tirunelveli District, Tamil Nadu, India</small>
+          </div>
+        </div>
       </div>
-      <div class="col-md-12">
-        <div class=" shadow-sm">
-          <div class="">
-            <!-- <h5>Office & Contact</h5>
-            <p class="mb-1"><strong>Email:</strong> <a href="mailto:contact@vmbSoftware Solutions.in">vinodselvinnadar@gmail.com</a></p>
-            <p class="mb-1"><strong>Phone:</strong> +91 8108334808</p>
-            <p class="mb-1"><strong>Address:</strong> Registered Office: Valliyur, Tirunelveli District, Tamil Nadu, India</p> -->
-            <div class="mt-3">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d729.1333101493018!2d77.60692781005154!3d8.379847821389927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0466d58d771511%3A0xa4aca6dee6aacfed!2sValliyur%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1763015869766!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310.9426756867589!2d77.60978813725406!3d8.384624956992544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0466d7bd558f29%3A0xeaa71447f0a17f5e!2s9JM5%2BVXC%2C%20Malappuram%2C%20Valliyur%2C%20Vadakkuvalliyur%2C%20Tamil%20Nadu%20627117!5e1!3m2!1sen!2sin!4v1762450683436!5m2!1sen!2sin" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62615.000000000004!2d77.3875!3d8.5667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0000000000000000!2sValliyur!5e0!3m2!1sen!2sin!4v0000000000000" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+      <div class="col-md-7 contact-form-container">
+        <div class="vmb-contact-head" id="write-us">
+          <h3 class="h5"><span>Write a Message</span></h3>
+        </div>
+        <form id="contactForm" class="contactForm" method="post" action="/contact" aria-label="Contact form">
+          <div class="mb-3 row">
+            <div class="col">
+              <label for="name" class="visually-hidden">Name</label>
+              <input type="text" name="name" id="name" placeholder="Enter Name *" class="form-control" required>
+            </div>
+            <div class="col">
+              <label for="phone" class="visually-hidden">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number *" class="form-control" required>
             </div>
           </div>
+
+          <div class="mb-3">
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email address *" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="visually-hidden">Message</label>
+            <textarea id="message" name="message" class="form-control" placeholder="Enter message *" rows="5" required></textarea>
+          </div>
+
+          <button class="btn cta-btn" type="submit">Send Message</button>
+          <p class="small text-muted mt-2">We will respond within one business day. By submitting you agree to our privacy policy.</p>
+        </form>
+      </div>
+
+      <div class="col-md-12">
+        <div class="shadow-sm mt-3">
+          <iframe title="Valliyur location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d729.1333101493018!2d77.60692781005154!3d8.379847821389927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0466d58d771511%3A0xa4aca6dee6aacfed!2sValliyur%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1763015869766!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- ABOUT -->
-<section id="about" class="py-5">
+<section id="about" class="py-5" aria-labelledby="about-heading">
   <div class="container">
     <div class="row align-items-center g-4">
       <div class="col-lg-6">
-        <h2 class="fw-bold">About VMB Software Solutions</h2>
-        <p class="text-muted">Founded in Valliyur, VMB Software Solutions Private Limited brings together three brothers with complementary expertise — backend & ERP systems, web frontends and product design. Our mission is to deliver dependable software that scales and creates measurable business value.</p>
+        <h2 id="about-heading" class="fw-bold">About VMB Software Solutions</h2>
+        <p class="text-muted">Founded in Valliyur, VMB Software Solutions Private Limited brings together three brothers with complementary expertise — backend & ERP systems, web frontends and product design. We focus on delivering dependable software that scales and creates measurable business value.</p>
         <ul class="text-muted">
-          <li>We believe in engineering craftsmanship and practical design.</li>
+          <li>Engineering craftsmanship and practical design.</li>
           <li>Local roots, global standards — built in Tamil Nadu for the world.</li>
-          <li>Transparent pricing, steady delivery, and long-term partnerships.</li>
+          <li>Transparent pricing, steady delivery, long-term partnerships.</li>
         </ul>
       </div>
       <div class="col-lg-6">
         <div class="row g-3">
           <div class="col-lg-6 d-flex align-items-center gap-3">
-            <img src="./assets/founder1.jpeg" class="founder-photo shadow-sm" alt="Founder1">
+            <img src="./assets/founder1.jpeg" class="founder-photo shadow-sm" alt="Founder V. Selvin Nadar" loading="lazy" width="120" height="120">
             <div>
               <h6 class="mb-0">V. Selvin Nadar</h6>
               <small class="text-muted">Founder</small>
@@ -495,84 +412,77 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center gap-3">
-            <img src="./assets/founder2.jpeg" class="founder-photo shadow-sm" alt="Founder2">
+            <img src="./assets/founder2.jpeg" class="founder-photo shadow-sm" alt="Co-Founder S. Vallimayil" loading="lazy" width="120" height="120">
             <div>
               <h6 class="mb-0">S. Vallimayil</h6>
               <small class="text-muted">Co-Founder</small>
             </div>
           </div>
-
-          <!-- <div class="col-12 d-flex align-items-center gap-3">
-            <img src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="founder-photo shadow-sm" alt="Binson">
-            <div>
-              <h6 class="mb-0">Binson Selvin Nadar</h6>
-              <small class="text-muted">Co-Founder — Backend, ERP & Architecture</small>
-              <p class="mb-0 text-muted">Java, System Design, ERP Solutions, DSA</p>
-            </div>
-          </div> -->
-
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PRIVACY / TERMS -->
-<section id="policies" class="py-5 bg-white">
+<!-- POLICIES -->
+<section id="policies" class="py-5 bg-white" aria-labelledby="policies-heading">
   <div class="container">
     <div class="row g-4">
       <div class="col-md-6">
-        <h5>Privacy Policy (Summary)</h5>
-        <p class="text-muted">We respect your privacy. We collect only the information you volunteer (contact form) and use it to respond to inquiries. We do not sell personal data. Complete policy available on request.</p>
+        <h5 id="policies-heading">Privacy Policy (Summary)</h5>
+        <p class="text-muted">We collect only the information you volunteer via the contact form and use it to respond to inquiries. We do not sell personal data. Contact us for the full privacy policy.</p>
       </div>
       <div class="col-md-6">
         <h5>Terms of Service (Summary)</h5>
-        <p class="text-muted">Our standard terms cover project scope, payment milestones and confidentiality. Detailed T&C sent during proposal stage and included in signed contracts.</p>
+        <p class="text-muted">Our standard terms cover project scope, payment milestones and confidentiality. Detailed terms are shared at proposal stage and included in signed contracts.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="py-4">
+<footer class="py-4 bg-dark text-white">
   <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
     <div>
       <strong>VMB Software Solutions Private Limited</strong><br>
-      <small>Registered Office: Valliyur, Tirunelveli District, Tamil Nadu</small>
+      <small>Registered Office: Valliyur, Tirunelveli District, Tamil Nadu</small><br>
+      <small class="d-block mt-1">Phone: <a href="tel:+917010554520" class="text-white">(+91) 7010 5545 20</a> · Email: <a href="mailto:vinod.selvin@vmbsoftwaresolutions.com" class="text-white">vinod.selvin@vmbsoftwaresolutions.com</a></small>
     </div>
     <div class="text-md-end mt-3 mt-md-0">
       <small>© 2025 VMB Software Solutions Pvt. Ltd. · <a class="text-white" href="#policies">Privacy</a> · <a class="text-white" href="#policies">Terms</a></small>
     </div>
   </div>
 </footer>
-<div class="fixed-bottom-buttons justify-content-around d-md-none">
-    <a href="tel:+91 7010554520" class="btn btn-call">
-      <i class="fa fa-phone me-1"></i> Call
-    </a>
-    <a href="mailto:vinod.selvin@vmbsoftwaresolutions.com" class="btn btn-email">
-      <i class="fa fa-envelope me-1"></i> Email
-    </a>
-    <a href="#write-us" class="btn btn-quite">
-      <i class="fa fa-pencil me-1"></i> Get a Quote
-    </a>
-  </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  document.getElementById('contactForm').addEventListener('submit', function(e){
-    e.preventDefault();
-    // Simple client-side validation
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
-    if(!name || !email || !message){
-      alert('Please fill required fields.');
-      return;
-    }
-    // In production, POST to your backend endpoint. For now, show a success message.
-    alert('Thank you — your message has been received. We will contact you within 1 business day.');
-    document.getElementById('contactForm').reset();
-  });
-</script>
+<!-- Mobile fixed actions -->
+<div class="fixed-bottom-buttons justify-content-around d-md-none" aria-hidden="false">
+  <a href="tel:+917010554520" class="btn btn-call" aria-label="Call VMB">
+    <i class="fa fa-phone me-1"></i>
+  </a>
+  <a href="mailto:vinod.selvin@vmbsoftwaresolutions.com" class="btn btn-email" aria-label="Email VMB">
+    <i class="fa fa-envelope me-1"></i>
+  </a>
+  <a href="#write-us" data-bs-toggle="modal" data-bs-target="#bottomModal" class="btn btn-quote" aria-label="Request a quote">
+    <i class="fa fa-pencil me-1"></i> Get a Quote
+  </a>
+</div>
+
+<!-- Modal (kept for mobile CTAs) -->
+<div class="modal fade" id="bottomModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slide-up">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close-mobile-dialog" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="dialog-body-mobile"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts (deferred to improve performance) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="./main.js" defer></script>
+
 </body>
 </html>

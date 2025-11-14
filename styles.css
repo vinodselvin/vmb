@@ -9,10 +9,13 @@ body {
 }
 
 .hero {
-    background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02));
+    /* background: linear-gradient(180deg, rgba(13, 110, 253, 0.3), rgba(13, 110, 253, 0.02)); */
     padding-top: 125px !important;
-    background: #abd9fb url('./assets/./first-banner-hero.jpg') no-repeat right center;
-    background-size: 50%;
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to left, #2a19da, #006dff, #0097fa, #00b8d2, #00d4b1, #00dfa5, #00e892, #22f17a, #00f08e, #00eea0, #00ecb0, #23e9bd);
+    /* background-color: #abd9fb; */
+    /* background: #abd9fb url('./assets/./first-banner-hero.jpg') no-repeat right center;
+    background-size: 50%; */
     /* background: #fff url(./assets/'./first-banner.jpg') no-repeat fixed center; */
 }
 .triangle {
@@ -74,7 +77,7 @@ footer {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: transparent !important;
+    background-color: transparent !important; 
 }
 
 .first-block {
@@ -152,7 +155,7 @@ footer {
 #services .card-body {
     cursor: pointer;
     padding: 0px;
-    background: url(./assets/services1.jpg) no-repeat ;
+    /* background: url(./assets/services1.jpg) no-repeat ; */
 }
 
 #services .card-title {
@@ -229,6 +232,7 @@ footer {
     text-decoration: none;
     color: #234882;
     font-size: 1.2rem;
+    padding-top: 15px;
 }
 
 .view-more-portfolio-btn:hover {
@@ -266,15 +270,99 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #fff;
     border-top: 1px solid #ddd;
     z-index: 1030;
     padding: 0.5rem;
 }
 
-.fixed-bottom-buttons .btn {
-    width: 32%;
+.btn-quote {
+    width: 60vw;
+    float: right;
+}
+.btn-call, .btn-email {
+    width: 15vw;
+}
+.btn-call {
+    background-color: #28a745;
+    color: #fff;
+}
+.btn-email {
+    background-color: #007bff;
+    color: #fff;
+}
+.btn-quote {
+    background-color: #ffc107;
+    color: #000;
+}
+#portfolio .card-title, #portfolio .card-text {
+  white-space: nowrap;       /* Prevent text from wrapping to the next line */
+  overflow: hidden;          /* Hide overflowed content */
+  text-overflow: ellipsis;   /* Show "..." for overflowed text */
+  color: #234882;
+}
+
+#portfolio .card-text {
+     max-height: 2.5rem;
+
+}
+#portfolio .card-text {
+    transition: max-height 0.8s ease, opacity 0.5s ease;
+    opacity: 0.9;
+}
+#portfolio .card-text:hover {
+   /* height: 2.5rem;
+    line-clamp: 2;*/
+    max-height: 20rem;
+    white-space: wrap;       /* Prevent text from wrapping to the next line */
+    overflow: initial;          /* Hide overflowed content */
+    text-overflow: initial;
+    opacity: 1;
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Custom modal dialog for slide effect */
+.modal-dialog-slide-up {
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-out;
+}
+
+/* Apply animation when modal opens */
+.modal.show .modal-dialog-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+.close-mobile-dialog {
+    width: 75px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 2px;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+}
+#bottomModal .modal-header {
+    border: none;
+}
+#services .card-text.text-muted {
+    padding: 0 15px;
+}
+
+#services p {
+    padding: 0 15px;
 }
 
 /* CSS here applies only when the screen width is 768px or less */
@@ -282,8 +370,18 @@ footer {
   .logo {
       height: 60px;
   }
-  .hero {
-    background-position: center 80%;
+  .hero-img {
+    width: 50%;
+    margin: auto;
+  }
+
+  .modal-dialog-slide-up {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .modal-content {
+    border-radius: 16px 16px 0 0;
   }
   
 }
@@ -291,6 +389,10 @@ footer {
 @media (max-width: 991px) {
     .contact-btn-mobile {
     display: block;
+  }
+  .hero-img {
+    width: 50%;
+    margin: auto;
   }
   .contact-btn {
     display: none;

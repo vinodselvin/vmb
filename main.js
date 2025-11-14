@@ -64,4 +64,35 @@ $(document).ready(function () {
       scrollTop: $("#services").offset().top - 70
     }, 800);
   });
+  $(document).on('click', '.btn-quote', function (event) {
+    $("#dialog-body-mobile").html($(".contact-form-container").html());
+  });
+
+  $(document).on("submit", ".contactForm", function (e) {
+  e.preventDefault();
+
+  const form = this; // current form element
+  const formData = new FormData(form);
+  const submitBtn = $(form).find('button[type="submit"]');
+
+submitBtn.html('<span class="spinner-border spinner-border-sm"></span> Sending...').prop('disabled', true);
+
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLSekxKaSAWWtbKnLcPBmu-TLMy1grBu972Xh_vRefHrDA0_Yrg/formResponse", {
+    method: "POST",
+    mode: "no-cors",
+    body: formData
+  }).then(() => {
+    form.reset(); // ✅ properly reset form
+    // ✅ optional success feedback
+    $(form).find('button[type="submit"]').prop('disabled', true).text('Sent ✓');
+    alert('✅ Thank you — your message has been received! We’ll contact you within 1 business day.');
+    setTimeout(() => {
+      $(form).find('button[type="submit"]').prop('disabled', false).text('Submit');
+    }, 2000);
+  }).catch((error) => {
+    console.error('Submission failed', error);
+    alert('⚠️ There was a problem sending your message. Please try again.');
+  });
+});
+
 });
